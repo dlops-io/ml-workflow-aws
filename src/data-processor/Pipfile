@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+difpy = "*"
+dask = "*"
+boto3 = "*"
+scikit-learn = "*"
+tensorflow = "==2.13.1"
+
+[requires]
+python_version = "3.11"
